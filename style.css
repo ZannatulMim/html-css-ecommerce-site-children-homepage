@@ -561,3 +561,72 @@ header.sticky {
 .main-blog .btn:hover {
     background: #f379a7;
 }
+
+
+.main-contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 2rem;
+}
+
+.contact {
+    width: 100%;
+    background-image: url(contact.png);
+}
+
+.cont-info img {
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+}
+
+
+.cont-info h6 {
+    max-width: 300px;
+    color: #e4e4e4;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 25px 0;
+    cursor: pointer;
+    transition: all .42s;
+}
+
+.cont-info h6:hover {
+    color: #f379a7;
+
+}
+
+
+.contact-icon i {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 15px;
+    transition: all .42s;
+}
+
+.contact-icon i:hover {
+    color: #f379a7;
+    text-decoration: underline;
+}
+
+.main-contact p {
+    color: #e4e4e4;
+    font-size: 18px;
+    line-height: 34px;
+    cursor: pointer;
+    transition: all .42s;
+}
+
+.main-contact p:hover {
+    color: #f379a7;
+    transform: translateX(5px);
+}
+
+.cont-info3 img {
+    max-width: 100%;
+    width: 230px;
+    height: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
